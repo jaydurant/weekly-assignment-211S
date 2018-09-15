@@ -85,6 +85,7 @@ public class CarModel implements Comparable<CarModel> {
 	public void setSeatType(SeatType seatType) {
 		this.seatType = seatType;
 	}
+	
 
 	@Override
 	public String toString() {
