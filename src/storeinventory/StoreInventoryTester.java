@@ -1,6 +1,6 @@
 package storeinventory;
 
-public class StoreInventoryTester {
+private class StoreInventoryTester {
 
 	public static void main(String[] args) {
 		Store store =  new Store();

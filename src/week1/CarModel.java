@@ -1,5 +1,7 @@
 package week1;
 
+import java.util.List;
+
 public class CarModel implements Comparable<CarModel> {
 	private int numberOfWheels;
 	private int numberOfDoors;
@@ -84,6 +86,12 @@ public class CarModel implements Comparable<CarModel> {
 
 	public void setSeatType(SeatType seatType) {
 		this.seatType = seatType;
+	}
+	
+	public static void readCars(List<CarModel> list) {
+		for(CarModel car: list) {
+			System.out.println(car);
+		}
 	}
 	
 
